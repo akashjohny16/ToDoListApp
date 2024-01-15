@@ -4,10 +4,10 @@
     box-sizing: border-box;
     }
     body {
-    background: #e27442;
+    background: #77cee9;
     }
     .todo-container {
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
     top:50%;
     left: 50%;
@@ -36,13 +36,13 @@
     font-family: 'Candal', sans-serif;
     }
     .todo-header button {
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 50%;
     cursor: pointer;
     padding: 5px;
     font-family: 'Candal', sans-serif;
-    background-color: rgb(51, 212, 100);
+    background-color: rgb(3, 3, 3);
     }
     .todo-container ul {
     list-style: none;
@@ -75,7 +75,7 @@
     cursor: pointer;
     padding: 5px;
     font-family: 'Candal', sans-serif;
-    background-color: rgb(51, 212, 100);
+    background-color: rgb(12, 8, 228);
     }
     .todo-list-item .cancel {
     color: white;
@@ -85,14 +85,14 @@
     cursor: pointer;
     padding: 5px;
     font-family: 'Candal', sans-serif;
-    background-color: rgb(223, 43, 43);
+    background-color: rgb(3, 3, 3);
     margin-left: 5px;
     }
     .todo-list-item div {
     flex-grow: 2;
     }
     .todo-list-item .edit {
-    color : rgb(143, 233, 58);
+    color : rgb(10, 10, 10);
     margin-right: 10px;
     cursor:pointer;
     text-decoration: none;
